@@ -1,8 +1,4 @@
-try {
-    if(echartConfigId){
-		echartConfigId = Date.now()
-	}
-} catch (error) {
+if(typeof myVariable === 'undefined'){
 	var echartConfigId = Date.now()
 
 	var notDataText = data => {
