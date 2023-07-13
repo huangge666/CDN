@@ -1,8 +1,8 @@
-try{
-	if(echartConfigId){
-		return
+try {
+    if(echartConfigId){
+		echartConfigId = Date.now()
 	}
-}catch(){
+} catch (error) {
 	var echartConfigId = Date.now()
 
 	var notDataText = data => {
@@ -158,5 +158,4 @@ try{
 		pictorialBarData
 	  }
 	}
-
 }
