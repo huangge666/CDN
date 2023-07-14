@@ -1,4 +1,4 @@
-const china = {
+const echartChina = {
   type: 'FeatureCollection',
   features: [
     {
@@ -3212,4 +3212,5 @@ const china = {
   ],
 }
 
-export default china
+window.echartChinaData = echartChina
+// export default echartChina
